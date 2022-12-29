@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ContactProV2._0.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221229090159_001")]
+    [Migration("20221229093457_001")]
     partial class _001
     {
         /// <inheritdoc />
