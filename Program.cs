@@ -19,8 +19,8 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 //Migrations Helper
-var scope = app.Services.CreateScope();
-await DataHelper.ManageDataAsync(scope.ServiceProvider);
+//var scope = app.Services.CreateScope();
+//await DataHelper.ManageDataAsync(scope.ServiceProvider);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
