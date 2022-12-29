@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-ContactPro_V2._0-a983d212-50e0-49d9-bcaf-ffa6f156ec26</UserSecretsId>
     <RootNamespace>ContactPro_V2._0</RootNamespace>
+	  <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
   <ItemGroup>
